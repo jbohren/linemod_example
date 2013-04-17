@@ -1,0 +1,10 @@
+<launch>
+
+  <arg name="DATA_PATH" default="."/>
+
+  <node name="line2di" pkg="linemod_example" type="linemod_node"
+    args="$(arg DATA_PATH)">
+
+  </node>
+
+</launch>
